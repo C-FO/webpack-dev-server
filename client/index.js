@@ -80,8 +80,6 @@ var newConnection = function() {
 	};
 };
 
-newConnection();
-
 function reloadApp() {
 	if(hot) {
 		console.log("[WDS] App hot update...");
